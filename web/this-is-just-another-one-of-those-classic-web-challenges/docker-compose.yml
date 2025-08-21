@@ -1,0 +1,17 @@
+services:
+  challenge:
+    build: ./service/app
+    ports:
+      - "33333:33333"
+    depends_on:
+      - admin-bot
+    environment:
+      - ADMIN_HOST=admin-bot
+      - ADMIN_PORT=3001
+
+  admin-bot:
+    build: ./service/admin
+    environment:
+      - BASE_URL=http://challenge:33333/
+      - FLAG=grey{this_is_the_flag_for_real}
+      - MASTER_SECRET=super_secret_key_123

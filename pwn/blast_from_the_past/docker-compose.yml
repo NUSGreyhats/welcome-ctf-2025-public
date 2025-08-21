@@ -1,0 +1,7 @@
+services:
+  blast_from_the_past:
+    container_name: pwn-blast-from-the-past
+    build: ./service
+    privileged: true
+    ports:
+      - 35123:5000

@@ -1,0 +1,19 @@
+attribution: vincent5399
+author: vincent5399
+category: Rev
+description: 'Flag checker is kinda hard so I made an easier version of it!
+
+
+  p.s. `welcome-ctf-ida-guide.zip` might be helpful if you''re new to reverse engineering!'
+extra:
+  decay: 150
+  initial: 1000
+  minimum: 100
+files:
+- dist-flag-checker-baby.zip
+flags:
+- grey{simple_menu_rev}
+name: Flag Checker Baby
+state: visible
+type: dynamic
+value: 1000

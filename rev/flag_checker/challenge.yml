@@ -1,0 +1,16 @@
+attribution: k-hian
+author: k-hian
+category: Rev
+description: A simple flag checker... wait... I can't run it??!?
+extra:
+  decay: 150
+  initial: 1000
+  minimum: 100
+files:
+- dist-flag_checker.zip
+flags:
+- grey{f0r_41l_7He_fLa95_Of_Th3_w0Rl0}
+name: Flag Checker
+state: visible
+type: dynamic
+value: 1000

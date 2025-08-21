@@ -1,0 +1,17 @@
+attribution: k-hian
+author: k-hian
+category: Osint
+description: Someone's salty about GreyCTF Quals. And he even issued a challenge to
+  you, the participants. Go prove him wrong!
+extra:
+  decay: 150
+  initial: 1000
+  minimum: 100
+files:
+- dist-someones-salty.zip
+flags:
+- grey{d169InG_4_fOs5iLi23d_Fl4g}
+name: Someones Salty
+state: visible
+type: dynamic
+value: 1000

@@ -1,0 +1,24 @@
+attribution: jloh02
+author: jloh02
+category: Misc
+description: 'Bluey decided to take a walk around NUS before school starts. He wrote
+  down some lines in his diary for Pinky to follow. Can you figure out the message
+  to Pinky?
+
+
+  The flag format is: `grey{THE_FLAG_IN_UPPERCASE_AND_UNDERSCORE_ONLY}`
+
+
+  Note: Do not brute force any APIs. When in doubt, maybe the dates can help you.'
+extra:
+  decay: 150
+  initial: 1000
+  minimum: 100
+files:
+- dist-nus_geographer.zip
+flags:
+- grey{IM_JUST_A_NUSMODS_MONKEY}
+name: Nus Geographer
+state: visible
+type: dynamic
+value: 1000

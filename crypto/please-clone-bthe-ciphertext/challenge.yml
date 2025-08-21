@@ -1,0 +1,17 @@
+attribution: bintegrals
+author: bintegrals
+category: Crypto
+connection_info: nc challs.nusgreyhats.org 31410
+description: "I said blease \U0001F449\U0001F448"
+extra:
+  decay: 150
+  initial: 1000
+  minimum: 100
+files:
+- dist-please-clone-bthe-ciphertext.zip
+flags:
+- grey{bthe_is_a_legit_word_i_bthink_6afc024a3e3b735cc3c59337e42c2b97}
+name: Please Clone Bthe Ciphertext
+state: visible
+type: dynamic
+value: 1000

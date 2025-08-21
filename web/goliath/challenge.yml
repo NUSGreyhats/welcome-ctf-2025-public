@@ -1,0 +1,17 @@
+attribution: Quan Yang
+author: Quan Yang
+category: Web
+connection_info: http://challs.nusgreyhats.org:33355
+description: Only admins can get free flags from the flag store.
+extra:
+  decay: 150
+  initial: 1000
+  minimum: 100
+files:
+- dist-goliath.zip
+flags:
+- grey{@re_y0u_4n_@dm1n?}
+name: Goliath
+state: visible
+type: dynamic
+value: 1000

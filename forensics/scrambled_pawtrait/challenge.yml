@@ -1,0 +1,18 @@
+attribution: itsme-zeix
+author: itsme-zeix
+category: Forensics
+description: My cat insisted on a cameo and left the flag in the image. However, Greycat
+  scrambled the photo and sent back two images. Reconstruct the original image to
+  read the flag!
+extra:
+  decay: 150
+  initial: 1000
+  minimum: 100
+files:
+- dist-scrambled_pawtrait.zip
+flags:
+- grey{purrf3ct_x0r}
+name: Scrambled Pawtrait
+state: visible
+type: dynamic
+value: 1000

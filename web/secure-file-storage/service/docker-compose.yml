@@ -1,0 +1,7 @@
+services:
+  secure_file_storage:
+    container_name: web-secure_file_storage
+    build: .
+    ports:
+      - "33336:5000"
+    restart: unless-stopped

@@ -1,0 +1,16 @@
+attribution: vincent5399
+author: vincent5399
+category: Rev
+description: Find out how to make a bag, and what to put in it!
+extra:
+  decay: 150
+  initial: 1000
+  minimum: 100
+files:
+- dist-whats-in-the-bag.zip
+flags:
+- grey{th3_b4g_c0nt41ns_751_greycats!!}
+name: Whats In The Bag
+state: visible
+type: dynamic
+value: 1000

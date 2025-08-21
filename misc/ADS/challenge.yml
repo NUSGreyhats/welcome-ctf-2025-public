@@ -1,0 +1,18 @@
+attribution: nvdchw
+author: nvdchw
+category: Misc
+description: What does ADS stand for again? Was it Alternate Data Shift? Or was it
+  Alternate Data Spectrogram? Hmm... whatever. Here is a file containing my secrets.
+  Try to uncover them if you can.
+extra:
+  decay: 150
+  initial: 1000
+  minimum: 100
+files:
+- dist-ADS.zip
+flags:
+- grey{@lt3rnat3_dat@_5tr3ams_R_pr3tTy_c0oL_t0_H1d3_s3cret5!}
+name: Ads
+state: visible
+type: dynamic
+value: 1000

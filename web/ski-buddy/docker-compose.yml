@@ -1,0 +1,21 @@
+services:
+  ski_buddy_app:
+    container_name: ski-buddy-app
+    build:
+      context: ./service/ski-buddy
+      dockerfile: Dockerfile
+    restart: always
+    ports:
+      - "33335:8000"
+    environment:
+      - FLAG=grey{skibidi_toilet_2ea989edfabfe44f526d7edd0dd8df27}
+      - ADMIN_HOST=ski-buddy-admin
+      - ADMIN_PORT=3001
+      - JWT_SECRET=t0ilet
+  ski_buddy_admin:
+    container_name: ski-buddy-admin
+    build:
+      context: ./service/admin
+      dockerfile: Dockerfile
+    restart: always
+

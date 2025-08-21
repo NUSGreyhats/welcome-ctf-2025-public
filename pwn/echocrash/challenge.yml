@@ -1,0 +1,22 @@
+attribution: Sunshinefactory & Elma
+author: Sunshinefactory & Elma
+category: Pwn
+connection_info: nc challs.nusgreyhats.org 35124
+description: 'Found some weird program that reassembles some data and calculates the
+  checksum.
+
+
+  My friend said the global\_buffer might be vulnerable... but what does it matter?
+  It''s just a global variable, what could it possibly affect?'
+extra:
+  decay: 150
+  initial: 1000
+  minimum: 100
+files:
+- dist-echocrash.zip
+flags:
+- grey{m3mcpy_g0_brrrrrrr_ezpzXD}
+name: Echocrash
+state: visible
+type: dynamic
+value: 1000

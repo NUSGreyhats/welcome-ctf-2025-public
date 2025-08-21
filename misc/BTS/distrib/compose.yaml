@@ -1,0 +1,8 @@
+services:
+  challenge:
+    container_name: misc-bts
+    build: .
+    ports:
+      - 36000:5000
+    environment:
+      - FLAG=grey{fake_flag}

@@ -1,0 +1,18 @@
+attribution: NIL
+author: NIL
+category: Welcome
+connection_info: nc challs.nusgreyhats.org 33000
+description: "This is a simple sanity check to make sure your tools are sharp and\
+  \ your sanity is intact.\n\nOpen your terminal and run:\n\n`nc challs.nusgreyhats.org\
+  \ 33000`\n\nIf you see a flag, congrats - you're all set to begin. \n\nCopy and\
+  \ paste it in the input box below and click submit!"
+extra:
+  decay: 150
+  initial: 1000
+  minimum: 100
+flags:
+- grey{h4Ve_aN_Aw3s0mE_w3lc0m3ctf}
+name: Sanity Check
+state: visible
+type: dynamic
+value: 1000

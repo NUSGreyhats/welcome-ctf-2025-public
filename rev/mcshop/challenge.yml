@@ -1,0 +1,20 @@
+attribution: fieash
+author: fieash
+category: Rev
+connection_info: nc challs.nusgreyhats.org 34612
+description: 'My friends TheMcthologist and McVinDollah LoVES macdonalds!!
+
+
+  If you get their favourite order for them they will give you a flag!'
+extra:
+  decay: 150
+  initial: 1000
+  minimum: 100
+files:
+- dist-mcshop.zip
+flags:
+- grey{boo7_b4ll_be11_b0ne}
+name: Mcshop
+state: visible
+type: dynamic
+value: 1000

@@ -1,0 +1,6 @@
+services:
+  challenge:
+    container_name: crypto-pcbc
+    build: service
+    ports:
+      - 31410:5000  

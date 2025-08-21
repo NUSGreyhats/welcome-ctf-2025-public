@@ -1,0 +1,15 @@
+attribution: ribena
+author: ribena
+category: Osint
+description: Hearsay I used to be greyhatsbiggestfan on Instagram, but my account
+  got deleted </3
+extra:
+  decay: 150
+  initial: 1000
+  minimum: 100
+flags:
+- grey{gr3yh4ts_number_ONE_st4n_me0w_me0w_m30w}
+name: I Love Greyhats
+state: visible
+type: dynamic
+value: 1000

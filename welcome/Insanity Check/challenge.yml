@@ -1,0 +1,14 @@
+attribution: k-hian
+author: k-hian
+category: Welcome
+description: "No way! There's more?!? \n\nTHIS IS DRIVING ME INSAAAANNNNEEEEEEEEEEEEEE"
+extra:
+  decay: 150
+  initial: 1000
+  minimum: 100
+flags:
+- grey{7hEy_4Re_0r1Vin6_m3_1n54nE}
+name: Insanity Check
+state: visible
+type: dynamic
+value: 1000

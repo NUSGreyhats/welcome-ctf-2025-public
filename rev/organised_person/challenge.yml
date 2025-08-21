@@ -1,0 +1,17 @@
+attribution: pikapika
+author: pikapika
+category: Rev
+description: I love to organise my stuff by packing them! But i forgot the password
+  for this file ;-;
+extra:
+  decay: 150
+  initial: 1000
+  minimum: 100
+files:
+- dist-organised_person.zip
+flags:
+- grey{am_i_tHe_m0sT_oRgAniS3d_pErsOn_in_d4_w0r1d_:3}
+name: Organised Person
+state: visible
+type: dynamic
+value: 1000

@@ -1,0 +1,19 @@
+attribution: elijah5399
+author: elijah5399
+category: Pwn
+connection_info: nc challs.nusgreyhats.org 33001
+description: On your first day at work at the sunshine factory, your supervisor lets
+  you make a sunshine however you'd like! Remember, however, that there can only be
+  one sun, and bad sunshines go punished...
+extra:
+  decay: 150
+  initial: 1000
+  minimum: 100
+files:
+- dist-sunshinefactory.zip
+flags:
+- grey{th3_L1gHt_hURtS_mY_3y35}
+name: Sunshinefactory
+state: visible
+type: dynamic
+value: 1000

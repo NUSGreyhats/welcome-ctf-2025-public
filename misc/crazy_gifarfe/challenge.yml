@@ -1,0 +1,16 @@
+attribution: k-hian
+author: k-hian
+category: Misc
+description: OMG that's some ccrrraaaazzyyy GIFARFES, no way those necks don't hurt
+extra:
+  decay: 150
+  initial: 1000
+  minimum: 100
+files:
+- dist-crazy_gifarfe.zip
+flags:
+- grey{G1F4RF3_s4Y5_Ru6_4_0uB_dU8_mY_n3Ck_1S_j3L1y}
+name: Crazy Gifarfe
+state: visible
+type: dynamic
+value: 1000

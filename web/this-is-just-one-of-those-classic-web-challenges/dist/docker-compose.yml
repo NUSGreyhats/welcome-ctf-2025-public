@@ -1,0 +1,8 @@
+services:
+  web:
+    build: .
+    ports:
+      - "33334:80"
+    environment:
+      - APACHE_DOCUMENT_ROOT=/var/www/html
+    restart: unless-stopped

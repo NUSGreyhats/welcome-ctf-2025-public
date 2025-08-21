@@ -1,0 +1,8 @@
+services:
+  app:
+    build: ./service
+    ports:
+      - "33355:3335"
+    environment:
+      - FLAG_PASSWORD="X-ETwoP@t2*3@_2n__iui!FP"
+      - FLAG=grey{@re_y0u_4n_@dm1n?}

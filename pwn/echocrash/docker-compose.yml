@@ -1,0 +1,7 @@
+services:
+  echocrash:
+    container_name: pwn-echocrash
+    build: ./service
+    privileged: true
+    ports:
+      - 35124:5000

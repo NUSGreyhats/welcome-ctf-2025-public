@@ -1,0 +1,18 @@
+attribution: Hexerberg
+author: Hexerberg
+category: Rev
+description: I downloaded this cool program my friend sent me, he told me it would
+  add some cool ascii art to my flag file. However, after running the program, it
+  seems like my flag.txt file is encrypted! What can I do?
+extra:
+  decay: 150
+  initial: 1000
+  minimum: 100
+files:
+- dist-wannaflag.zip
+flags:
+- grey{wh47_k1nd_0f_r4N50mw4r3_u535_rc4}
+name: Wannaflag
+state: visible
+type: dynamic
+value: 1000

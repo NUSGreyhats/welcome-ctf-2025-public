@@ -1,0 +1,16 @@
+attribution: Yuchen
+author: Yuchen
+category: Web
+connection_info: http://challs.nusgreyhats.org:33344
+description: 'Your vibe coder friend is asking you to try out his login page. Try
+  login with testuser: testuser123'
+extra:
+  decay: 150
+  initial: 1000
+  minimum: 100
+flags:
+- grey{n0_s1gn4tur3_n0_pr0bl3m}
+name: Vibecoder
+state: visible
+type: dynamic
+value: 1000

@@ -1,0 +1,58 @@
+<!-- templates/welcome.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Welcome</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background: #1e1e2f;
+            color: #f0f0f0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        .message-box {
+            background: #2e2e42;
+            padding: 30px;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0,0,0,0.4);
+            width: 400px;
+            text-align: center;
+        }
+
+        h1 {
+            color: #ffcc00;
+            margin-bottom: 10px;
+        }
+
+        p {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+
+        .flag {
+            font-weight: bold;
+            color: #00ff99;
+            background: #1a1a2e;
+            padding: 10px;
+            border-radius: 5px;
+            display: inline-block;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="message-box">
+        <h1>{{ title }}</h1>
+        <p>{{ message }}</p>
+        {% if flag %}
+        <div class="flag">{{ flag }}</div>
+        {% endif %}
+    </div>
+</body>
+</html>

@@ -1,0 +1,7 @@
+services:
+  mcshop:
+    container_name: rev-mcshop
+    build: ./service
+    privileged: true
+    ports:
+      - 34612:5000

@@ -1,0 +1,7 @@
+services:
+  rusty-vending-machine:
+    container_name: pwn-rusty-vending-machine
+    build: ./service
+    privileged: true
+    ports:
+      - 35125:5000

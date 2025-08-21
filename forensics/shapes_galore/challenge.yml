@@ -1,0 +1,17 @@
+attribution: sunshinefactory
+author: sunshinefactory
+category: Forensics
+description: I was inspired by Van Gogh's art at Getty Museum so I tried to make my
+  own in Microsoft Word. I even added a button!!!
+extra:
+  decay: 150
+  initial: 1000
+  minimum: 100
+files:
+- dist-shapes_galore.zip
+flags:
+- grey{w0w_1_l3arnt_m4cr0s_t0d4y!!!!!!}
+name: Shapes Galore
+state: visible
+type: dynamic
+value: 1000

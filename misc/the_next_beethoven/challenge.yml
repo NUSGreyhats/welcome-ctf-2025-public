@@ -1,0 +1,18 @@
+attribution: Elma
+author: Elma
+category: Misc
+connection_info: nc challs.nusgreyhats.org 34509
+description: Let's begin your training to be the next beehoven. 10 seconds, 1000 piano
+  notes, go!
+extra:
+  decay: 150
+  initial: 1000
+  minimum: 100
+files:
+- dist-the_next_beethoven.zip
+flags:
+- grey{pr0gr4mm1ng_d3m_m00000051c}
+name: The Next Beethoven
+state: visible
+type: dynamic
+value: 1000

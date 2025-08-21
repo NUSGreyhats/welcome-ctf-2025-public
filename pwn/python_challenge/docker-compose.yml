@@ -1,0 +1,7 @@
+services:
+  pwn-python-challenge:
+    container_name: pwn-python-challenge
+    build: ./service
+    read_only: true
+    ports:
+      - 34508:5000

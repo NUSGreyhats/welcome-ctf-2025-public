@@ -1,0 +1,20 @@
+attribution: jro
+author: jro
+category: Misc
+connection_info: nc challs.nusgreyhats.org 36000
+description: 'Bank Kit Systems has released yet another authentication system!
+
+
+  However, the lead developer must have slept through CS2107 (and maybe CS1010S too!)'
+extra:
+  decay: 150
+  initial: 1000
+  minimum: 100
+files:
+- dist-BTS.zip
+flags:
+- grey{D0N7_r011_Y0Ur_0WN_CrYP70_feae2400bc86b21c}
+name: Bts
+state: visible
+type: dynamic
+value: 1000

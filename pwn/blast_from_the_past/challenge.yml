@@ -1,0 +1,21 @@
+attribution: Elma
+author: Elma
+category: Pwn
+connection_info: nc challs.nusgreyhats.org 35123
+description: 'Cats and Guns takes a time machine and lands back 50 years in the future,
+  where binary protections have yet to exist.
+
+
+  Hack into this program and prove your worth!'
+extra:
+  decay: 150
+  initial: 1000
+  minimum: 100
+files:
+- dist-blast_from_the_past.zip
+flags:
+- grey{traditional_ret2shellcode_exploits!}
+name: Blast From The Past
+state: visible
+type: dynamic
+value: 1000

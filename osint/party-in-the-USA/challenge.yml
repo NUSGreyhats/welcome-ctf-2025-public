@@ -1,0 +1,19 @@
+attribution: sunshinefactory
+author: sunshinefactory
+category: Osint
+description: 'I left a mark of Greyhats at LA! Can you find out where I pasted it?
+
+
+  Flag format: grey{location_name}'
+extra:
+  decay: 150
+  initial: 1000
+  minimum: 100
+files:
+- dist-party-in-the-USA.zip
+flags:
+- grey{venice_fishing_pier}
+name: Party In The Usa
+state: visible
+type: dynamic
+value: 1000

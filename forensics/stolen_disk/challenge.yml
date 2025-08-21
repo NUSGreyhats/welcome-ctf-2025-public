@@ -1,0 +1,18 @@
+attribution: sunshinefactory
+author: sunshinefactory
+category: Forensics
+description: NUS Greyhats' backup for a small VM went missing after elijah5399 graduated.
+  We managed to recover a single disk image and an email fragment but something about
+  it seems off..
+extra:
+  decay: 150
+  initial: 1000
+  minimum: 100
+files:
+- dist-stolen_disk.zip
+flags:
+- grey{trust_N0_On3_but_Gr3YH4Ts}
+name: Stolen Disk
+state: visible
+type: dynamic
+value: 1000

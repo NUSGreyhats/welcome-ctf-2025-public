@@ -1,0 +1,17 @@
+attribution: jro
+author: jro
+category: Web
+connection_info: http://challs.nusgreyhats.org:33335
+description: It is important to get the latest updates while skiing.
+extra:
+  decay: 150
+  initial: 1000
+  minimum: 100
+files:
+- dist-ski-buddy.zip
+flags:
+- grey{skibidi_toilet_2ea989edfabfe44f526d7edd0dd8df27}
+name: Ski Buddy
+state: visible
+type: dynamic
+value: 1000

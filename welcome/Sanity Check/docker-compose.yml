@@ -1,0 +1,7 @@
+services:
+  challenge:
+    container_name: welcome-sanity-check
+    build: ./service
+    privileged: true
+    ports:
+      - 33000:5000

@@ -1,0 +1,288 @@
+/* Custom Snow Theme Styles */
+:root {
+    --snow-blue: #4fc3f7;
+    --dark-blue: #1a237e;
+    --light-snow: #f8f9fa;
+    --ice-blue: #e3f2fd;
+    --mountain-gray: #546e7a;
+}
+
+/* Global Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+    position: relative;
+    overflow-x: hidden;
+}
+
+/* Snow Animation Styles */
+#snow-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    pointer-events: none;
+    z-index: 1000;
+    overflow: hidden;
+}
+
+.snowflake {
+    position: absolute;
+    top: -10px;
+    color: rgba(255, 255, 255, 0.8);
+    font-size: 1em;
+    animation-name: fall;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    user-select: none;
+    pointer-events: none;
+}
+
+@keyframes fall {
+    from {
+        transform: translateY(-100vh) rotate(0deg);
+    }
+    to {
+        transform: translateY(100vh) rotate(360deg);
+    }
+}
+
+/* Custom Bootstrap Theme Colors */
+.bg-dark-blue {
+    background-color: var(--dark-blue) !important;
+}
+
+.text-snow-blue {
+    color: var(--snow-blue) !important;
+}
+
+.btn-snow-blue {
+    background-color: var(--snow-blue);
+    border-color: var(--snow-blue);
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.btn-snow-blue:hover {
+    background-color: #29b6f6;
+    border-color: #29b6f6;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 15px rgba(79, 195, 247, 0.3);
+}
+
+.bg-light-snow {
+    background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+}
+
+/* Navigation Styles */
+.navbar {
+    backdrop-filter: blur(10px);
+    background: rgba(26, 35, 126, 0.9) !important;
+    box-shadow: 0 2px 20px rgba(0, 0, 0, 0.1);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+#connection-status {
+    font-size: 0.9rem;
+}
+
+/* Hero Section */
+.hero-section {
+    background: linear-gradient(135deg, rgba(26, 35, 126, 0.8), rgba(102, 126, 234, 0.8)),
+                url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000"><polygon fill="%23ffffff" fill-opacity="0.1" points="0,1000 1000,1000 1000,200 0,800"/></svg>');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 1;
+}
+
+.hero-icon {
+    font-size: 15rem;
+    opacity: 0.6;
+    animation: float 6s ease-in-out infinite;
+}
+
+@keyframes float {
+    0%, 100% { transform: translateY(0px); }
+    50% { transform: translateY(-20px); }
+}
+
+/* Card Styles */
+.card {
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    overflow: hidden;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+}
+
+/* Alert Cards */
+.alert-card {
+    border-left: 5px solid;
+    margin-bottom: 1rem;
+    background: white;
+}
+
+.alert-card.severity-info {
+    border-left-color: #17a2b8;
+}
+
+.alert-card.severity-warning {
+    border-left-color: #ffc107;
+}
+
+.alert-card.severity-danger {
+    border-left-color: #dc3545;
+}
+
+.alert-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    color: white;
+    margin-right: 1rem;
+}
+
+.alert-icon.severity-info {
+    background-color: #17a2b8;
+}
+
+.alert-icon.severity-warning {
+    background-color: #ffc107;
+}
+
+.alert-icon.severity-danger {
+    background-color: #dc3545;
+}
+
+/* Event Cards */
+.event-card {
+    background: linear-gradient(145deg, #ffffff, #f0f0f0);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    backdrop-filter: blur(10px);
+}
+
+.event-type-badge {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 0.8rem;
+}
+
+/* Live Feed Styles */
+.live-feed-container {
+    max-height: 300px;
+    overflow-y: auto;
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.05);
+    border-radius: 10px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+}
+
+.feed-item {
+    padding: 0.75rem;
+    margin-bottom: 0.5rem;
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 8px;
+    border-left: 3px solid var(--snow-blue);
+    animation: slideInLeft 0.5s ease-out;
+}
+
+@keyframes slideInLeft {
+    from {
+        opacity: 0;
+        transform: translateX(-20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+.feed-timestamp {
+    font-size: 0.8rem;
+    opacity: 0.7;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .hero-section .display-3 {
+        font-size: 2.5rem;
+    }
+    
+    .hero-icon {
+        font-size: 8rem;
+    }
+    
+    .btn-lg {
+        padding: 0.75rem 1.5rem;
+        font-size: 1rem;
+    }
+}
+
+/* Custom Scrollbar */
+.live-feed-container::-webkit-scrollbar {
+    width: 6px;
+}
+
+.live-feed-container::-webkit-scrollbar-track {
+    background: rgba(255, 255, 255, 0.1);
+    border-radius: 3px;
+}
+
+.live-feed-container::-webkit-scrollbar-thumb {
+    background: var(--snow-blue);
+    border-radius: 3px;
+}
+
+.live-feed-container::-webkit-scrollbar-thumb:hover {
+    background: #29b6f6;
+}
+
+/* Loading Animations */
+.spinner-border {
+    animation-duration: 1s;
+}
+
+/* Smooth Scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Section Padding */
+section {
+    position: relative;
+    z-index: 2;
+}
+
+/* Footer */
+footer {
+    position: relative;
+    z-index: 2;
+}
+
+/* Animation for new alerts */
+@keyframes pulse {
+    0% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+    100% { transform: scale(1); }
+}
+
+.new-alert {
+    animation: pulse 0.5s ease-in-out;
+}

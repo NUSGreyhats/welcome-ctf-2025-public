@@ -1,0 +1,16 @@
+attribution: k-hian
+author: k-hian
+category: Crypto
+description: Here's a traditional RSA. I picked the primes, can you solve it?
+extra:
+  decay: 150
+  initial: 1000
+  minimum: 100
+files:
+- dist-what-even-is-rsa.zip
+flags:
+- grey{wHy_d0_7h1S_22222_m3}
+name: What Even Is Rsa
+state: visible
+type: dynamic
+value: 1000

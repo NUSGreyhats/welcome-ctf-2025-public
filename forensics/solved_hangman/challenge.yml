@@ -1,0 +1,17 @@
+attribution: Elma
+author: Elma
+category: Forensics
+description: I solved a hangman puzzle but my mum disconnected my power so the file
+  got corrupted, helps plz
+extra:
+  decay: 150
+  initial: 1000
+  minimum: 100
+files:
+- dist-solved_hangman.zip
+flags:
+- grey{gheiii}
+name: Solved Hangman
+state: visible
+type: dynamic
+value: 1000

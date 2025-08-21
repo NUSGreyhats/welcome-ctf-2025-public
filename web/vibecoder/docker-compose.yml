@@ -1,0 +1,11 @@
+services:
+  vibecoder:
+    container_name: vibecoder-app
+    build:
+      context: ./service/
+      dockerfile: Dockerfile
+    ports:
+      - "33344:3334"
+    environment:
+      - JWT_SECRET=YOUR_SECRET_KEY
+      - FLAG=grey{n0_s1gn4tur3_n0_pr0bl3m}

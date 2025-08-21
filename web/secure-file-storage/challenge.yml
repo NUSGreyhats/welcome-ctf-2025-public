@@ -1,0 +1,17 @@
+attribution: TheMythologist
+author: TheMythologist
+category: Web
+description: Who needs serverless cloud S3 when you have secure file storage! Complete
+  with zip support as well O.o
+extra:
+  decay: 150
+  initial: 1000
+  minimum: 100
+files:
+- dist-secure-file-storage.zip
+flags:
+- grey{zip_symlinks?!}
+name: Secure File Storage
+state: visible
+type: dynamic
+value: 1000

@@ -1,0 +1,18 @@
+attribution: iam_hybrid
+author: iam_hybrid
+category: Forensics
+description: My zip file ate my flag and won't open up! It also has anxiety so I don't
+  want to force it open if it doesn't want to open up. Can you help me get back my
+  flag?
+extra:
+  decay: 150
+  initial: 1000
+  minimum: 100
+files:
+- dist-shy_zipper.zip
+flags:
+- grey{s0m3_Th1Ng5_4r3_b3tT3r_L3fT_uNz1Pp3d}
+name: Shy Zipper
+state: visible
+type: dynamic
+value: 1000

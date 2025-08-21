@@ -1,0 +1,6 @@
+services:
+  challenge:
+    container_name: crypto-babyfeistel
+    build: service
+    ports:
+      - 32000:5000

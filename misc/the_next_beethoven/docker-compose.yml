@@ -1,0 +1,7 @@
+services:
+  misc-beethoven-to-be:
+    container_name: misc-beethoven-to-be
+    build: ./service
+    read_only: true
+    ports:
+      - 34509:5000
